@@ -1,0 +1,632 @@
+@font-face{
+    font-family: Regular;
+    src:url(nico.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+#btn{
+    min-height: 33px;
+    width: 170px;
+    background-color: #ffffff;
+    border: 1px solid wheat;
+    border-radius: 4px;
+    font-weight: 700;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 23px;
+    margin-right: 100px;
+}
+.banner{
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+.beat{
+    position:absolute;
+    left:47%;
+    top:44%;
+    color: #E7DDCE;
+    font-family: 'Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8vw;
+}
+.cloud1{
+    position: absolute;
+    max-width: 50%;
+    height: auto !important;
+    top:23%;
+    left:-5%;
+}
+#text1{
+    position: absolute;
+    color: #E7DDCE;
+    left:54%;
+    top:55%;
+    font-size: 3vw;
+    font-family: 'Arimo';
+}
+#text2{
+    position: absolute;
+    color: #E7DDCE;
+    left:66%;
+    top:61%;
+    font-size: 3vw;
+    font-family: 'Arimo';
+}
+.container-fluid{
+    background-color: black;
+}
+.slide1{
+    height: auto !important;
+    width: auto;
+    position: relative;
+}
+#service{
+font-family: 'Regular';
+font-size: 64px;
+font-weight: 400;
+line-height: 64px;
+letter-spacing: 0em;
+margin-top: 30px;
+text-align: center;
+background-color: #E7DDCE;
+}
+.service-part{
+    background-color: black;
+    height: 100px;
+    border-radius: 20px;
+    margin: 10px;
+    z-index: 2;
+    
+    position: relative;
+}
+   @media only screen and (max-width: 768px){
+    #test1 {
+        position: absolute;
+        /* margin-top: -631px; */
+        z-index: 1;
+        width: 40%;
+        left: 32%;
+    }
+}   
+
+/* #test1{position: relative; margin-top: -625px; z-index: 1; width:20%; left: 82%;} */
+
+.monkey-part{
+    position: absolute;
+    top: 8px;
+}
+.cloud-service{
+    position: absolute;
+    top: 12px;
+    left:100px;
+    color: #E7DDCE;
+    margin-left: 25px;
+    font-family: 'DM Mono';
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.cloud-service3{
+    position: absolute;
+    top: -462px;
+    left:-25px;
+    color: #E7DDCE;
+    margin-left: 25px;
+    font-family: 'DM Mono';
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.monkey-part2{
+   position: absolute;
+   top: 58px;
+   left:120px;
+}
+.cloud-service2{
+    position: absolute;
+    top: 50px;
+    left:150px;
+    color: #E7DDCE;
+    font-family: 'DM Mono';
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.monkey-border{
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50% ;
+    position: absolute;
+    top: 45px;
+    left:360px;
+
+}
+.monkey-border1{
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50% ;
+    position: absolute;
+    top: 45px;
+    left:320px;
+
+}
+.monkey-border2{
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50% ;
+    position: absolute;
+    top: 45px;
+    left:340px;
+}
+#service1{
+    font-family: 'Regular';
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0em;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #E7DDCE;
+    }
+    .ser{
+        font-family: Ubuntu;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+    }
+    .ser1{
+        border-radius: 20px; 
+        position: absolute;  
+        z-index: 2; 
+        border: 2px solid black; 
+        height: 250px;
+        left: 150px;
+        background-color: black;
+    }
+    @media only screen and (min-width:270px) and (max-width:768px) {
+       
+        .ser1{
+            border-radius: 20px; 
+            position: absolute;
+            left: -20px;
+            position: absolute;  
+            z-index: 2; 
+            margin: 10px;
+            border: 2px solid black; 
+            height: 250px;
+            width: 100%;
+            
+            background-color: black;
+        }
+        .over{
+            height: 350px;
+            width: 100%;
+            position: relative;
+            top:850px
+        }
+    }
+    .ser12{
+        font-family: 'Regular'; 
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #E7DDCE;
+        position: absolute;
+        left: 25px;
+        top: 3px;
+    }
+    .ser13{
+        color: #E7DDCE;
+        position: absolute;
+        left: 25px;
+        top: 50px;
+        width: 370px;
+        font-family: Ubuntu;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .ser14{
+        position: absolute;
+        left: 1px;
+        top: -10px;
+        
+    }
+    .ser15{
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #E7DDCE;
+    position: absolute;
+    left: 25px;
+    top: 50px;
+    width: 370px;
+    text-align: left;
+    }
+    .ser16{
+        position: absolute;
+        left: 129px;
+        top: 20px;
+    }
+    .service21{
+        font-family: Ubuntu;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+        }
+        .service31{
+            margin-top: -20px;
+            z-index: 1;
+            left: -10%;
+            height: 350px;
+            width: 42%;
+            position: absolute;
+        }
+        .service32{
+            z-index: 2;
+            position: absolute;
+            margin-top: -32px;
+            left: -10%;
+            width: 40%;
+        }
+        .service33{
+           left: 17%;
+           z-index: 3;
+            position:absolute;
+            margin-top: 5%;
+            width: 29%;
+            border-radius: 15px;
+            float: left;
+        }
+        .service34{
+            left: 48%;
+            z-index: 3;
+             position:absolute;
+             margin-top: 5%;
+             width: 30%;
+             border-radius: 15px;
+             float: right;
+         }
+         .service35{
+            left: 12%;
+            z-index: 3;
+             position:absolute;
+             margin-top: 31%;
+             width: 21%;
+             border-radius: 15px;
+             float: right;
+         }
+         .service36{
+            left: 28%;
+            z-index: 3;
+             position:absolute;
+             margin-top: 31%;
+             width: 21%;
+             border-radius: 15px;
+             float: right;
+         }
+         .service37{
+            left: 12%;
+            z-index: 3;
+             position:absolute;
+             margin-top: 48.1%;
+             width: 21%;
+             border-radius: 15px;
+             float: right;
+         }
+         .service38{
+            left: 28%;
+            z-index: 3;
+             position:absolute;
+             margin-top: 48.1%;
+             width: 21%;
+             border-radius: 15px;
+             float: right;
+         }
+         .service39{
+            left: 48%;
+            z-index: 3;
+             position:absolute;
+             margin-top: 33%;
+             width: 30%;
+             border-radius: 15px;
+             float: right;
+         }
+         .service40{
+            left: 63%;
+            z-index: 2;
+             position:absolute;
+             margin-top: 31%;
+             width: 42%;
+             border-radius: 15px;
+             float: right;
+         }
+         .service41{
+            left: 16%;
+            z-index: 3;
+             position:absolute;
+             margin-top: 45%;
+             width: 21%;
+             border-radius: 15px;
+             float: right;
+             font-family: 'Regular';
+             font-size: 20px;
+             font-weight: 400;
+             line-height: 24px;
+             letter-spacing: 0em;
+             text-align: left;
+             color: #E7DDCE;
+         }
+         .service42{
+            left: 16%;
+            z-index: 3;
+             position:absolute;
+             margin-top: 47%;
+             width: 21%;
+             border-radius: 15px;
+             float: right;
+             font-family: Ubuntu;
+             font-size: 14px;
+             font-weight: 400;
+             line-height: 21px;
+             letter-spacing: 0em;
+             text-align: left;
+             color: #E7DDCE;
+         }
+         .service43{
+            left: 16.5%;
+            z-index: 4;
+             position:absolute;
+             margin-top: 34.2%;
+             width: 13.5%;
+             border-radius: 15px;
+             float: right;
+         }
+         .service44{
+            left: 32.5%;
+            z-index: 4;
+             position:absolute;
+             margin-top: 34.2%;
+             width: 13.5%;
+             border-radius: 15px;
+             float: right;
+         }
+         .service46{
+            left: 32.5%;
+            z-index: 4;
+             position:absolute;
+             margin-top:2%;
+             width: 13.5%;
+             border-radius: 15px;
+             float: right;
+         }
+         .service51{
+            left: 32%;
+            z-index: 3;
+             position:absolute;
+             margin-top: 45%;
+             width: 21%;
+             border-radius: 15px;
+             float: right;
+             font-family: 'Regular';
+             font-size: 20px;
+             font-weight: 400;
+             line-height: 24px;
+             letter-spacing: 0em;
+             text-align: left;
+             color: #E7DDCE;
+         }
+         .service52{
+            left: 32%;
+            z-index: 3;
+             position:absolute;
+             margin-top: 47%;
+             width: 21%;
+             border-radius: 15px;
+             float: right;
+             font-family: Ubuntu;
+             font-size: 14px;
+             font-weight: 400;
+             line-height: 21px;
+             letter-spacing: 0em;
+             text-align: left;
+             color: #E7DDCE;
+         }
+        
+         .service48{
+            left: 16.5%;
+            z-index: 4;
+             position:absolute;
+             margin-top: 51.4%;
+             width: 13.5%;
+             border-radius: 15px;
+             float: right;
+         }
+         .service71{
+            left: 16.5%;
+            z-index: 3;
+             position:absolute;
+             margin-top: 62%;
+             width: 21%;
+             border-radius: 15px;
+             float: right;
+             font-family: 'Regular';
+             font-size: 20px;
+             font-weight: 400;
+             line-height: 24px;
+             letter-spacing: 0em;
+             text-align: left;
+             color: #E7DDCE;
+         }
+         .service72{
+            left: 16.5%;
+            z-index: 3;
+             position:absolute;
+             margin-top: 64%;
+             width: 21%;
+             border-radius: 15px;
+             float: right;
+             font-family: Ubuntu;
+             font-size: 14px;
+             font-weight: 400;
+             line-height: 21px;
+             letter-spacing: 0em;
+             text-align: left;
+             color: #E7DDCE;
+         }
+         .service49{
+            left: 32.5%;
+            z-index: 4;
+             position:absolute;
+             margin-top: 51.4%;
+             width: 13.5%;
+             border-radius: 15px;
+             float: right;
+         }
+         .service81{
+            left: 32.5%;
+            z-index: 3;
+             position:absolute;
+             margin-top: 62%;
+             width: 21%;
+             border-radius: 15px;
+             float: right;
+             font-family: 'Regular';
+             font-size: 20px;
+             font-weight: 400;
+             line-height: 24px;
+             letter-spacing: 0em;
+             text-align: left;
+             color: #E7DDCE;
+         }
+         .service82{
+            left: 32.5%;
+            z-index: 3;
+             position:absolute;
+             margin-top: 64%;
+             width: 21%;
+             border-radius: 15px;
+             float: right;
+             font-family: Ubuntu;
+             font-size: 14px;
+             font-weight: 400;
+             line-height: 21px;
+             letter-spacing: 0em;
+             text-align: left;
+             color: #E7DDCE;
+         }
+        .service3{
+            height: 150vh !important;
+            width: 100%;
+            background-color: #E7DDCE;
+            position: relative;
+        }
+        .footer{
+            height: 20rem;
+            background-color: black;
+            width: 100%;
+        }
+        .lower{
+            height: 30rem;
+            background-color: #E7DDCE;
+        }
+        .foot1{
+            font-family: Ubuntu;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: left;
+            position: absolute;
+            color: #E7DDCE;
+            width: 22%;
+            top:20%;
+            left: 15%;
+        }
+        .socail{
+            background-color: red;
+            position: absolute;
+            color: #E7DDCE;
+            
+            top:65%;
+            left: 15%;
+            border-radius: 50%;
+        }
+        .socail1{
+            background-color: red;
+            position: absolute;
+            color: #E7DDCE;
+            
+            top:65%;
+            left: 18%;
+            border-radius: 50%;
+        }
+        .socail2{
+            background-color: red;
+            position: absolute;
+            color: #E7DDCE;
+            top:65%;
+            left: 21%;
+            border-radius: 50%;
+        }
+        .socail3{
+            background-color: red;
+            position: absolute;
+            color: #E7DDCE;
+            top:65%;
+            left: 24%;
+            border-radius: 50%;
+        }
+        .sland1{
+           
+            position: absolute;
+            color: #E7DDCE;
+            /* top:2%; */
+            left: 54%;
+            border-radius: 50%;
+            height: 350px;
+        }
+        .sland2{
+           
+            position: absolute;
+            color: #E7DDCE;
+            top:-2%;
+            width: 20%;
+            height: 30%;
+            left: 70%;
+            border-radius: 50%;
+            height: 350px;
+        }
